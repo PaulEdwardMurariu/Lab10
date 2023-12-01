@@ -7,8 +7,8 @@ public class testSelectionSort {
     @Test
     public void testAllPositives() {
         SelectionSort sorter = new SelectionSort();
-        int[] input = {4, 5, 7, 2, 9};
-        int[] expected = {2, 4, 5, 7, 9}; // Sorted array
+        int[] input = {5, 2, 4, 3, 1};
+        int[] expected = {1, 2, 3, 4, 5}; // Sorted array
 
         sorter.basicSelectionSort(input);
 
@@ -20,8 +20,8 @@ public class testSelectionSort {
     @Test
     public void testAllNegatives() {
         SelectionSort sorter = new SelectionSort();
-        int[] input = {-4, -5, -7, -2, -9};
-        int[] expected = {-9, -7, -5, -4, -2}; // Sorted array
+        int[] input = {-5, -2, -4, -3, -1};
+        int[] expected = {-5, -4, -3, -2, -1}; // Sorted array
 
         sorter.basicSelectionSort(input);
 
