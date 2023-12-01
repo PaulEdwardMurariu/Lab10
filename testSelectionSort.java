@@ -33,8 +33,8 @@ public class testSelectionSort {
     @Test
     public void testWithMixedNumbers() {
         SelectionSort sorter = new SelectionSort();
-        int[] input = {-1, 0, -4, 6, -2};
-        int[] expected = {-4, -2, -1, 0, 6}; // Sorted array
+        int[] input = {-4, 0, -1, 9, -3};
+        int[] expected = {-4, -3, -1, 0, 9}; // Sorted array
 
         sorter.basicSelectionSort(input);
 
@@ -46,8 +46,8 @@ public class testSelectionSort {
     @Test
     public void testWithDuplicateNumbers() {
         SelectionSort sorter = new SelectionSort();
-        int[] input = {8, 8, -2, -2, 5};
-        int[] expected = {-2, -2, 5, 8, 8}; // Sorted array
+        int[] input = {7, 7, -3, -3, 4};
+        int[] expected = {-3, -3, 4, 7, 7}; // Sorted array
 
         sorter.basicSelectionSort(input);
 
